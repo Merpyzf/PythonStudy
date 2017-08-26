@@ -20,6 +20,7 @@ def long_time_process(name):
 # 队列数据结构 先进先出
 my_queue = Queue(maxsize=10)
 
+
 if __name__ == '__main__':
     # 创建一个队列，测试子进程是否能够公用父进程中的数据
     my_queue = Queue(maxsize=10)
