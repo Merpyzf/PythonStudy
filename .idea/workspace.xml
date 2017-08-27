@@ -12,28 +12,18 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PythonStudy$StudyThread.coverage" NAME="StudyThread Coverage Results" MODIFIED="1503673355693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study01" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_process1.coverage" NAME="study_process1 Coverage Results" MODIFIED="1503719330758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
+    <SUITE FILE_PATH="coverage/PythonStudy$study_process2.coverage" NAME="study_process2 Coverage Results" MODIFIED="1503730777463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
+    <SUITE FILE_PATH="coverage/PythonStudy$study_thread.coverage" NAME="study_thread Coverage Results" MODIFIED="1503733299789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_quequ.coverage" NAME="study_quequ Coverage Results" MODIFIED="1503728876815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
-    <SUITE FILE_PATH="coverage/PythonStudy$study_queue.coverage" NAME="study_queue Coverage Results" MODIFIED="1503729598669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
+    <SUITE FILE_PATH="coverage/PythonStudy$study_queue.coverage" NAME="study_queue Coverage Results" MODIFIED="1503730752529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="study_process.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_process_thread/study_process.py">
+      <file leaf-file-name="study_process2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_process_thread/study_process2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-              <folding>
-                <element signature="e#23#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="study_process1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_process_thread/study_process1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="722">
+              <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
               <folding>
                 <element signature="e#23#46#0" expanded="true" />
               </folding>
@@ -41,43 +31,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="study_process2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_process_thread/study_process2.py">
+      <file leaf-file-name="study_thread.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study_process_thread/study_thread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="study_queue0.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_utils/study_queue0.py">
+      <file leaf-file-name="study_thread_lock.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study_process_thread/study_thread_lock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="study_queue.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study_utils/study_queue.py">
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/threading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-              <folding>
-                <element signature="e#23#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queue.py" pinned="false" current-in-tab="false">
-        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/Queue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="107">
+              <caret line="413" column="12" lean-forward="false" selection-start-line="413" selection-start-column="6" selection-end-line="413" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -99,11 +77,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/study01/StudyThread.py" />
-        <option value="$PROJECT_DIR$/study_process_thread/study_process2.py" />
         <option value="$PROJECT_DIR$/study_util.py" />
         <option value="$PROJECT_DIR$/study_process_thread/study_process1.py" />
         <option value="$PROJECT_DIR$/study_utils/study_quequ.py" />
         <option value="$PROJECT_DIR$/study_utils/study_queue.py" />
+        <option value="$PROJECT_DIR$/study_process_thread/study_process2.py" />
+        <option value="$PROJECT_DIR$/study_process_thread/study_thread_lock.py" />
+        <option value="$PROJECT_DIR$/study_process_thread/study_thread.py" />
       </list>
     </option>
   </component>
@@ -114,10 +94,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
+    <option name="x" value="37" />
     <option name="y" value="23" />
-    <option name="width" value="1395" />
-    <option name="height" value="809" />
+    <option name="width" value="1415" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -146,11 +126,6 @@
               <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
               <item name="study_process_thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="study_utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,25 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.study_queue">
-    <configuration name="StudyThread" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonStudy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study01/StudyThread.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.study_thread">
     <configuration name="study_process1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,6 +173,24 @@
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_process_thread/study_process1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="study_process2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_process_thread" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_process_thread/study_process2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,18 +231,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.StudyThread" />
-      <item index="1" class="java.lang.String" itemvalue="Python.study_process1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.study_quequ" />
-      <item index="3" class="java.lang.String" itemvalue="Python.study_queue" />
+    <configuration name="study_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_process_thread" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonStudy" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_process_thread/study_thread.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.study_process1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.study_quequ" />
+      <item index="2" class="java.lang.String" itemvalue="Python.study_queue" />
+      <item index="3" class="java.lang.String" itemvalue="Python.study_process2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.study_thread" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.study_queue" />
-        <item index="1" class="java.lang.String" itemvalue="Python.study_quequ" />
-        <item index="2" class="java.lang.String" itemvalue="Python.study_process1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.StudyThread" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.study_thread" />
+        <item index="1" class="java.lang.String" itemvalue="Python.study_process2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.study_queue" />
+        <item index="3" class="java.lang.String" itemvalue="Python.study_quequ" />
+        <item index="4" class="java.lang.String" itemvalue="Python.study_process1" />
       </list>
     </recent_temporary>
   </component>
@@ -285,12 +280,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="23" width="1395" height="809" extended-state="0" />
+    <frame x="37" y="23" width="1415" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29036635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31787175" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -330,7 +325,7 @@
         <state relative-caret-position="551">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <element signature="e#23#32#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -349,7 +344,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#23#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -358,7 +355,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#23#32#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -368,7 +365,7 @@
         <state relative-caret-position="0">
           <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
-            <element signature="e#23#32#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -399,14 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_process_thread/study_process2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study_utils/study_queue0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -433,11 +422,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/study_utils/study_queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="627">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#23#35#0" expanded="true" />
+            <element signature="e#23#35#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_process_thread/study_process2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding>
+            <element signature="e#23#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="413" column="12" lean-forward="false" selection-start-line="413" selection-start-column="6" selection-end-line="413" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_process_thread/study_thread_lock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_process_thread/study_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
