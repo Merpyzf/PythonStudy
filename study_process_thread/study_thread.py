@@ -20,22 +20,18 @@ def change_it(n):
     global balance
     balance = balance + n
     balance = balance - n
-threading.loc
+
 
 def run_thread(n):
     for i in range(1000000):
-
         change_it(n)
 
 
 if __name__ == '__main__':
-
     # 创建两个线程对余额同时操作
     t1 = threading.Thread(target=run_thread, args=(10,))
-    t2 = threading.Thread(target=run_thread, args=(5, ))
+    t2 = threading.Thread(target=run_thread, args=(5,))
 
     t1.start()
     t2.start()
     print '余额', balance
-
-
