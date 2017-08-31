@@ -18,7 +18,6 @@ html_doc = """
 """
 
 if __name__ == '__main__':
-
     soup = BeautifulSoup(html_doc, "html.parser")
     # 按照标准的缩进结构输出
     # print soup.prettify()
@@ -29,7 +28,7 @@ if __name__ == '__main__':
     # print soup.prettify()
     # print soup.head.title
 
-    all_a = soup.find_all('a')
+    # all_a = soup.find_all('a')
 
     # for a in all_a:
     #     print a['class'][0]
@@ -52,7 +51,9 @@ if __name__ == '__main__':
     #     print child
     #     print '======='
 
-    for s in soup.strings:
-        print s
+    # for s in soup.stripped_strings:
+    #     print s
+    #
+    # soup.string
 
-    soup.string
+print soup.find('title').parent.string
