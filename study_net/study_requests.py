@@ -15,3 +15,4 @@ if __name__ == '__main__':
     # 设置获取内容的编码
     r.encoding = 'UTF-8'
     print r.text
+# append# append# append# append

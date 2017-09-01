@@ -1,11 +1,12 @@
 # -*- coding:utf-8 -*-
 from bs4 import BeautifulSoup
+import re
 
 # BeautifulSoup库使用学习
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
-<p class="title imgbg">The Dormouse's story</p>
+<p class="title">The Dormouse's story</p>
 
 <p class="story">Once upon a time there were three little sisters; and their names wereand they lived at the bottom of a well.</p>
 <a href="http://example.com/elsie" class="sister" id="link1">Elsie</a>,
@@ -56,4 +57,33 @@ if __name__ == '__main__':
     #
     # soup.string
 
-print soup.find('title').parent.string
+    # print soup.find('title').parent.string
+
+    # tag_a = soup.find('a')
+    #
+    # next = tag_a.next_sibling.next_sibling
+
+    # print next
+
+
+    # for tag in soup.find('a').next_siblings:
+    #     print tag
+
+    # 找到包含class属性但不包括id属性的标签
+    # def has_class_but_no_id(tag):
+    #     return tag.has_attr('class') and not tag.has_attr('id')
+    #
+    #
+    # soup.find_all_next()
+    #
+    # all = soup.find_all(has_class_but_no_id)
+    # for x in all:
+    #     print x
+
+    # find_all = soup.find_all(class_ ='title')
+    #
+    # for tag in find_all:
+    #     print tag
+
+    select = soup.getText('/', strip=True)
+    print select
