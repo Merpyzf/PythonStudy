@@ -51,3 +51,5 @@ if __name__ == '__main__':
     #
     # print os.getcwd()
     # print getdir('/Users/wangke')
+    
+    print os.path.isdir('/Users/wangke/test_io')

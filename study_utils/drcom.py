@@ -15,15 +15,15 @@ password = '106814'
 CONTROLCHECKSTATUS = '\x20'
 ADAPTERNUM = '\x02'
 # 当前电脑的ip地址
-host_ip = '192.168.31.212'
+host_ip = ''
 IPDOG = '\x01'
 host_name = 'DRCOMFUCKER'
 PRIMARY_DNS = '218.2.2.2'
 dhcp_server = '0.0.0.0'
 AUTH_VERSION = '\x26\x00'
 # mac = 0x54353027DAD2 华硕笔记本的mac地址
-mac = 0x784f43a6d6ad  # rmbp的mac地址
-host_os = 'WINDIAOS'
+mac = 0x1  # mac地址
+host_os = 'MAC'
 KEEP_ALIVE_VERSION = '\xdc\x02'
 
 
@@ -53,7 +53,7 @@ def try_socket():
         time.sleep(0.5)
         print (".")
         time.sleep(0.5)
-        print ("...reopen")
+        print ("...重新打开")
         time.sleep(10)
         main()
     else:
@@ -183,13 +183,13 @@ def keep_alive2(*args):
             break
     # print '[keep-alive2] recv3',data.encode('hex')
     tail = data[16:20]
-    print ("[keep-alive] keep-alive loop was in daemon.")
+    print ("[keep-alive] 保持连接...")
     i = 3
 
     while True:
         try:
             keep_alive1(SALT, package_tail, password, server)
-            print '[keep-alive2] send'
+            print '[keep-alive2] 发送心跳包...'
             ran += random.randint(1, 10)
             packet = keep_alive_package_builder(i, dump(ran), tail, 1, False)
             # print('DEBUG: keep_alive2,packet 4\n',packet.encode('hex'))
@@ -279,21 +279,21 @@ def login(usr, pwd, svr):
         s.sendto(packet, (svr, 61440))
         data, address = s.recvfrom(1024)
         # print('[login] recv',data.encode('hex'))
-        print('[login] packet sent.')
+        print('[login] 发送数据包.')
         if address == (svr, 61440):
             if data[0] == '\x04':
-                print('[login] login in')
+                print('[login] 登录……')
                 break
             else:
                 continue
         else:
             if i >= 5 and UNLIMITED_RETRY == False:
-                print('[login] exception occured.')
+                print('[login] 登录出现异常.')
                 sys.exit(1)
             else:
                 continue
 
-    print('[login] login Success')
+    print('[login] 哈哈…… 登录成功！')
     return data[23:39]
     # return data[-22:-6]
 
@@ -333,17 +333,15 @@ def empty_socket_buffer():
 
 def main():
     global server, username, password, host_name, host_os, dhcp_server, mac, hexip, host_ip
+
+    host_ip = get_ip_address()
+    mac = get_mac_address()
     hexip = socket.inet_aton(host_ip)
-    # host_ip=ip
+
     host_name = "est-pc"
     host_os = "8089D"  # default is 8089D
     dhcp_server = "0.0.0.0"
 
-    # mac = 0xE0DB55BAE012
-    # it is a mac in programme and it may crush with other users so I use randMAC to avoid it
-    host_ip = get_ip_address()
-    mac = hex(eval(get_mac_address()))
-    print 'mac==>' + mac
     loginpart()
 
 
@@ -367,15 +365,16 @@ def keeppart():
 # Linux下获取电脑的ip地址
 def get_ip_address():
     ip_address = socket.gethostbyname(socket.getfqdn(socket.gethostname()))
-    print '本机的ip地址: '+ip_address
+    print '本机的ip地址: ' + ip_address
     return ip_address
 
 
 # 获取电脑的mac地址
 def get_mac_address():
     mac = uuid.UUID(int=uuid.getnode()).hex[-12:].upper()
-    print '本机的mac地址: ' + '0x'+mac
-    return '0x'+mac
+    print '本机的mac地址: ' + '0x' + mac
+    # 将str转换成16进制的int类型
+    return int('0x' + mac, 16)
 
 
 if __name__ == "__main__":
