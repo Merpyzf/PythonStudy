@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cd0f6b-54cb-402d-a2ac-aafe07dfc60d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_demo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_demo/ypi_job_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonStudy.iml" afterPath="$PROJECT_DIR$/.idea/PythonStudy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/study_io/study_file.py" afterPath="$PROJECT_DIR$/study_io/study_file.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/study_utils/drcom.py" afterPath="$PROJECT_DIR$/study_utils/drcom.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,9 +22,10 @@
     <SUITE FILE_PATH="coverage/PythonStudy$study_process2.coverage" NAME="study_process2 Coverage Results" MODIFIED="1503730777463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
     <SUITE FILE_PATH="coverage/PythonStudy$network_util.coverage" NAME="network_util Coverage Results" MODIFIED="1503927318762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_queue.coverage" NAME="study_queue Coverage Results" MODIFIED="1503730752529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
+    <SUITE FILE_PATH="coverage/PythonStudy$ypi_job_login.coverage" NAME="ypi_job_login Coverage Results" MODIFIED="1504457019137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_demo" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_beautiful_soup.coverage" NAME="study_beautiful_soup Coverage Results" MODIFIED="1504257135017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_net" />
     <SUITE FILE_PATH="coverage/PythonStudy$Drcom.coverage" NAME="Drcom Coverage Results" MODIFIED="1503928359025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
-    <SUITE FILE_PATH="coverage/PythonStudy$study_requests.coverage" NAME="study_requests Coverage Results" MODIFIED="1504180248905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_net" />
+    <SUITE FILE_PATH="coverage/PythonStudy$study_requests.coverage" NAME="study_requests Coverage Results" MODIFIED="1504608135979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_net" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_property.coverage" NAME="study_property Coverage Results" MODIFIED="1504191705604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_advanced" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_thread.coverage" NAME="study_thread Coverage Results" MODIFIED="1504190352012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_thread_dead_loop.coverage" NAME="study_thread_dead_loop Coverage Results" MODIFIED="1503931756484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
@@ -31,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="drcom.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study_utils/drcom.py">
+      <file leaf-file-name="study_requests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study_net/study_requests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="374">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -81,6 +84,8 @@
         <option value="$PROJECT_DIR$/study_io/test_io" />
         <option value="$PROJECT_DIR$/study_io/study_file.py" />
         <option value="$PROJECT_DIR$/study_utils/drcom.py" />
+        <option value="$PROJECT_DIR$/study_demo/record_question.txt" />
+        <option value="$PROJECT_DIR$/study_demo/ypi_job_login.py" />
       </list>
     </option>
   </component>
@@ -91,8 +96,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="27" />
+    <option name="x" value="29" />
+    <option name="y" value="23" />
     <option name="width" value="1327" />
     <option name="height" value="809" />
   </component>
@@ -113,6 +118,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,12 +130,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$USER_HOME$/python/TestEnv/bin/python2.7" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -153,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.drcom">
+  <component name="RunManager" selected="Python.study_requests">
     <configuration name="drcom" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,56 +214,56 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="study_property" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="study_requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_advanced" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_net" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_advanced/study_property.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_net/study_requests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="study_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ypi_job_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_process_thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_process_thread/study_thread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_demo/ypi_job_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.study_thread" />
-      <item index="1" class="java.lang.String" itemvalue="Python.study_beautiful_soup" />
-      <item index="2" class="java.lang.String" itemvalue="Python.study_property" />
-      <item index="3" class="java.lang.String" itemvalue="Python.study_open_file" />
-      <item index="4" class="java.lang.String" itemvalue="Python.drcom" />
+      <item index="0" class="java.lang.String" itemvalue="Python.study_beautiful_soup" />
+      <item index="1" class="java.lang.String" itemvalue="Python.study_open_file" />
+      <item index="2" class="java.lang.String" itemvalue="Python.drcom" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ypi_job_login" />
+      <item index="4" class="java.lang.String" itemvalue="Python.study_requests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.drcom" />
-        <item index="1" class="java.lang.String" itemvalue="Python.study_open_file" />
-        <item index="2" class="java.lang.String" itemvalue="Python.study_beautiful_soup" />
-        <item index="3" class="java.lang.String" itemvalue="Python.study_property" />
-        <item index="4" class="java.lang.String" itemvalue="Python.study_thread" />
+        <item index="0" class="java.lang.String" itemvalue="Python.study_requests" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ypi_job_login" />
+        <item index="2" class="java.lang.String" itemvalue="Python.drcom" />
+        <item index="3" class="java.lang.String" itemvalue="Python.study_open_file" />
+        <item index="4" class="java.lang.String" itemvalue="Python.study_beautiful_soup" />
       </list>
     </recent_temporary>
   </component>
@@ -314,23 +320,30 @@
       <option name="project" value="LOCAL" />
       <updated>1504351884693</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完善dr.com登录，可自动获取ip地址和电脑的mac地址，在mac上测试可行">
+      <created>1504441320351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504441320351</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="27" width="1327" height="809" extended-state="0" />
+    <frame x="29" y="23" width="1327" height="809" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13696498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15797666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22519685" sideWeight="0.46759942" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42156863" sideWeight="0.5324006" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22689076" sideWeight="0.5324006" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -355,34 +368,14 @@
     <MESSAGE value="python中的属性函数的学习" />
     <MESSAGE value="python中beautifusoup的使用学习" />
     <MESSAGE value="python中文件操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="python中文件操作" />
+    <MESSAGE value="完善dr.com登录，可自动获取ip地址和电脑的mac地址，在mac上测试可行" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善dr.com登录，可自动获取ip地址和电脑的mac地址，在mac上测试可行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study_process_thread/study_thread_dead_loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_process_thread/study_process2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_process_thread/study_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study_utils/drcom.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7182">
@@ -616,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_utils/network_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7847">
@@ -648,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24548">
           <caret line="1297" column="8" lean-forward="false" selection-start-line="1297" selection-start-column="8" selection-end-line="1297" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,15 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_net/study_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7486">
           <caret line="394" column="0" lean-forward="false" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,35 +662,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4237">
           <caret line="223" column="13" lean-forward="false" selection-start-line="223" selection-start-column="13" selection-end-line="223" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_net/study_beautiful_soup.py">
+    <entry file="file://$PROJECT_DIR$/study_utils/network_util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-            <marker date="1504237944000" expanded="true" signature="1520:1596" ph="..." />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_io/study_file.py">
+    <entry file="file:///Library/Python/2.7/site-packages/bs4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2508">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study_utils/drcom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="513">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_io/study_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_net/study_beautiful_soup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#23#52#0" expanded="false" />
+            <marker date="1504237944000" expanded="true" signature="1520:1596" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_demo/record_question.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_demo/ypi_job_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_net/study_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
         </state>
       </provider>
