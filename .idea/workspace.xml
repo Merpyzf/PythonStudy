@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cd0f6b-54cb-402d-a2ac-aafe07dfc60d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_advanced/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_advanced/study_io/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_basic/study_fibs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_read/study_read_csv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/study_io/study_file.py" afterPath="$PROJECT_DIR$/study_advanced/study_io/study_file.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/study_io/test_io" afterPath="$PROJECT_DIR$/study_advanced/study_io/test_io" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +33,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="study_read_csv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study_read/study_read_csv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,6 +89,7 @@
         <option value="$PROJECT_DIR$/study_basic/study_function.py" />
         <option value="$PROJECT_DIR$/study_advanced/study_except.py" />
         <option value="$PROJECT_DIR$/study_basic/study_fibs.py" />
+        <option value="$PROJECT_DIR$/study_read/study_read_csv.py" />
       </list>
     </option>
   </component>
@@ -92,10 +100,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="249" />
-    <option name="y" value="99" />
+    <option name="x" value="467" />
+    <option name="y" value="261" />
     <option name="width" value="1327" />
-    <option name="height" value="1045" />
+    <option name="height" value="846" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,16 +144,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PythonCode\PythonStudy\study_advanced" />
-      <recent name="$PROJECT_DIR$/study_utils" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonCode\PythonStudy\study_read" />
       <recent name="D:\PythonCode\PythonStudy\study_regex" />
       <recent name="D:\PythonCode\PythonStudy\demo" />
       <recent name="$PROJECT_DIR$/study_utils" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/study_process_thread" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonCode\PythonStudy\study_read" />
+      <recent name="D:\PythonCode\PythonStudy\study_advanced" />
+      <recent name="$PROJECT_DIR$/study_utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,24 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.study_fibs">
-    <configuration default="false" name="study_args_kwargs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_advanced" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PythonStudy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_advanced/study_args_kwargs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.study_read_csv">
     <configuration default="false" name="ypi_job_auto_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,6 +234,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_basic/study_fibs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="study_read_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_read" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PythonStudy" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_read/study_read_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -381,19 +390,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.study_args_kwargs" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ypi_job_auto_login" />
-      <item index="2" class="java.lang.String" itemvalue="Python.study_except" />
-      <item index="3" class="java.lang.String" itemvalue="Python.study_function" />
-      <item index="4" class="java.lang.String" itemvalue="Python.study_fibs" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ypi_job_auto_login" />
+      <item index="1" class="java.lang.String" itemvalue="Python.study_except" />
+      <item index="2" class="java.lang.String" itemvalue="Python.study_function" />
+      <item index="3" class="java.lang.String" itemvalue="Python.study_fibs" />
+      <item index="4" class="java.lang.String" itemvalue="Python.study_read_csv" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.study_fibs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.study_except" />
-        <item index="2" class="java.lang.String" itemvalue="Python.study_function" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ypi_job_auto_login" />
-        <item index="4" class="java.lang.String" itemvalue="Python.study_args_kwargs" />
+        <item index="0" class="java.lang.String" itemvalue="Python.study_read_csv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.study_fibs" />
+        <item index="2" class="java.lang.String" itemvalue="Python.study_except" />
+        <item index="3" class="java.lang.String" itemvalue="Python.study_function" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ypi_job_auto_login" />
       </list>
     </recent_temporary>
   </component>
@@ -457,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504529119163</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="递归弗波纳契数列">
+      <created>1504617705097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504617705097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="249" y="99" width="1327" height="1045" extended-state="0" />
+    <frame x="467" y="261" width="1327" height="846" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19984744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -469,11 +485,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22519685" sideWeight="0.46759942" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2248394" sideWeight="0.5324006" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32517007" sideWeight="0.5324006" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2955032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5610278" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -500,7 +516,8 @@
     <MESSAGE value="python中beautifusoup的使用学习" />
     <MESSAGE value="python中文件操作" />
     <MESSAGE value="python中的函数定义与调用的关系, 异常处理, 正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="python中的函数定义与调用的关系, 异常处理, 正则表达式" />
+    <MESSAGE value="递归弗波纳契数列" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归弗波纳契数列" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -525,14 +542,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/threading.py" />
-    <entry file="file://$PROJECT_DIR$/study_process_thread/study_thread_dead_loop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study_process_thread/study_process2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -772,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,6 +824,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_read/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_read/study_read_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
