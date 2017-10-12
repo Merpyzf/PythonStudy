@@ -39,7 +39,7 @@ def get_char(r, g, b, alpha=256):
 
 if __name__ == '__main__':
     im = Image.open(img)
-    im = im.resize((img_width, img_height), Image.NEAREST)
+    im = im.resize((img_width, img_height), Image.ANTIALIAS)
     txt = ""
 
     for i in range(img_height):
@@ -55,3 +55,4 @@ if __name__ == '__main__':
     else:
         with open("output.txt", 'w') as f:
             f.write(txt)
+
