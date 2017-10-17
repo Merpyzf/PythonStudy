@@ -6,6 +6,8 @@ import json
 import BeautifulSoup
 import re
 import json
+from study_utils import convert_radix
+import time
 
 # 伪造请求头
 header = {
@@ -41,10 +43,23 @@ def down_img(down_url):
 
 def get_page(pin_id):
     global ascii_index
-    url = 'http://huaban.com/boards/' + str(pin_id) + '/?j8u65bn' + chr(ascii_index) + '&max=1285375106&limit=20&wfl=1'
-    ascii_index += 1
-    print url
+    global uuid
+    t = int(round(time.time() * 1000))
+    uid = convert_radix.convert(t)
 
+    print uid
+
+    if uuid == None:
+        # 设置字符
+        uuid = ord(uid[-1])
+    print uuid
+
+    randomStr = uid[0:uid.__len__() - 1] + str(chr(uuid))
+
+    print randomStr
+
+    url = 'http://huaban.com/boards/35618451/?' + randomStr+ '&' + str(pin_id) + '&limit=20&wfl=1'
+    print url
     r = requests.get(url, headers=header)
     rex_str = r'app\.page\["board"\] = ({[\s|\S]*};\n)'
     print r.text
@@ -53,6 +68,7 @@ def get_page(pin_id):
     pins = page['pins']
     page_id = pins[-1]['pin_id']
     print '页面id-->' + str(page_id)
+    # uuid += 1
     for pin in pins:
         # 获取等待下载的图片
         global count
@@ -60,14 +76,15 @@ def get_page(pin_id):
         print pin['file']['key']
         # 将图片存入队列中,让下载线程对图片进行下载操作
         q_image_urls.put(pin['file']['key'] + '_fw658')
-        down_img(pin['file']['key'] )
+        down_img(pin['file']['key'])
 
+    uuid += 1
     # 递归调用
     get_page(page_id)
 
 
 count = 0
-ascii_index = 98
+uuid = None
 
 if __name__ == '__main__':
     q_image_urls = Queue.Queue()
