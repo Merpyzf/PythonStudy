@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cd0f6b-54cb-402d-a2ac-aafe07dfc60d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_excel/data/courses.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_excel/data/students.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_excel/data/teachers.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_excel/study_read_excel_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_excel/study_read_excel_2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PythonStudy.iml" afterPath="$PROJECT_DIR$/.idea/PythonStudy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_advanced/tornado/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_advanced/tornado/string_service.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/backup_db.py" afterPath="$PROJECT_DIR$/demo/backup_db.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backup_db.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="backup_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/backup_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="137" column="70" lean-forward="false" selection-start-line="137" selection-start-column="70" selection-end-line="137" selection-end-column="70" />
+            <state relative-caret-position="224">
+              <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
               <folding>
                 <element signature="e#122#136#0" expanded="true" />
                 <element signature="e#2509#3194#0" expanded="false" />
@@ -92,6 +86,18 @@
                 <marker date="1509590724612" expanded="true" signature="2341:2373" ph="update stude... " />
                 <marker date="1509590724612" expanded="true" signature="2341:2407" ph="update stude... " />
                 <marker date="1509590724612" expanded="true" signature="2341:2408" ph="update stude... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string_service.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study_advanced/tornado/string_service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <folding>
+                <element signature="e#32#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,6 +215,7 @@
         <option value="$PROJECT_DIR$/study_file/study_os.py" />
         <option value="$PROJECT_DIR$/study_excel/study_read_excel.py" />
         <option value="$PROJECT_DIR$/demo/backup_db.py" />
+        <option value="$PROJECT_DIR$/study_advanced/tornado/string_service.py" />
       </list>
     </option>
   </component>
@@ -218,10 +225,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="32" />
     <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -245,31 +253,6 @@
             <path>
               <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="study_advanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="study_file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="study_net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="study_oop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -561,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508479720207</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="python数据库通过邮箱完成数据库备份">
+      <created>1509592831609</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1509592831609</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -574,17 +564,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="32" width="1440" height="817" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17310444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17739628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22519685" sideWeight="0.46759942" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.059065934" sideWeight="0.5324006" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47279322" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47229916" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4570637" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28899637" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.040166207" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2303263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -645,16 +635,16 @@
     <MESSAGE value="python测试对excel文件的写入" />
     <MESSAGE value="python线程相关知识的学习" />
     <MESSAGE value="python使用xlwt操作excel生成报表" />
-    <option name="LAST_COMMIT_MESSAGE" value="python使用xlwt操作excel生成报表" />
+    <MESSAGE value="python数据库通过邮箱完成数据库备份" />
+    <option name="LAST_COMMIT_MESSAGE" value="python数据库通过邮箱完成数据库备份" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/huaban/15.jpg" />
     <entry file="file://$PROJECT_DIR$/demo/huaban/30.jpg" />
     <entry file="file://$PROJECT_DIR$/demo/huaban/29.jpg" />
     <entry file="file://$PROJECT_DIR$/demo/huaban/22.jpg" />
@@ -793,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/backup_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="137" column="70" lean-forward="false" selection-start-line="137" selection-start-column="70" selection-end-line="137" selection-end-column="70" />
+        <state relative-caret-position="224">
+          <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
           <folding>
             <element signature="e#122#136#0" expanded="true" />
             <element signature="e#2509#3194#0" expanded="false" />
@@ -802,6 +792,16 @@
             <marker date="1509590724612" expanded="true" signature="2341:2373" ph="update stude... " />
             <marker date="1509590724612" expanded="true" signature="2341:2407" ph="update stude... " />
             <marker date="1509590724612" expanded="true" signature="2341:2408" ph="update stude... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_advanced/tornado/string_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#32#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
