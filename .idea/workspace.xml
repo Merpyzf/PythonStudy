@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cd0f6b-54cb-402d-a2ac-aafe07dfc60d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_advanced/tornado/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_advanced/tornado/string_service.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/back_up/mingjia_backup.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/test/H2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/test/H3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/test/H5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/test/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_basic/study_xml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_util/drcom的副本.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/main/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/main/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/main/receive.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/main/replay.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/main/verify.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/menu/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/menu/wx_menu.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/token/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/token/wx_token_server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/user/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study_wechat/user/wx_user.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,10 +40,13 @@
     <SUITE FILE_PATH="coverage/PythonStudy$study_process2.coverage" NAME="study_process2 Coverage Results" MODIFIED="1503730777463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_write_excel_2.coverage" NAME="study_write_excel_2 Coverage Results" MODIFIED="1508485190733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_excel" />
     <SUITE FILE_PATH="coverage/PythonStudy$ypi_job_login.coverage" NAME="ypi_job_login Coverage Results" MODIFIED="1504457019137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_demo" />
+    <SUITE FILE_PATH="coverage/PythonStudy$wx_token_server__1_.coverage" NAME="wx_token_server (1) Coverage Results" MODIFIED="1512802253401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_wechat" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_prime.coverage" NAME="study_prime Coverage Results" MODIFIED="1508121358450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_advanced" />
     <SUITE FILE_PATH="coverage/PythonStudy$zhihu_login.coverage" NAME="zhihu_login Coverage Results" MODIFIED="1508158553569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/zhihu" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_requests.coverage" NAME="study_requests Coverage Results" MODIFIED="1504608135979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_net" />
     <SUITE FILE_PATH="coverage/PythonStudy$backup_db.coverage" NAME="backup_db Coverage Results" MODIFIED="1509590263215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/PythonStudy$wx_user.coverage" NAME="wx_user Coverage Results" MODIFIED="1512811655481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_wechat/user" />
+    <SUITE FILE_PATH="coverage/PythonStudy$wx_menu.coverage" NAME="wx_menu Coverage Results" MODIFIED="1512799706013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_wechat/menu" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_shutil.coverage" NAME="study_shutil Coverage Results" MODIFIED="1508578430664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_file" />
     <SUITE FILE_PATH="coverage/PythonStudy$drcom.coverage" NAME="drcom Coverage Results" MODIFIED="1504440906657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_read_excel.coverage" NAME="study_read_excel Coverage Results" MODIFIED="1509327718071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_excel" />
@@ -34,13 +56,16 @@
     <SUITE FILE_PATH="coverage/PythonStudy$zhihu_img.coverage" NAME="zhihu_img Coverage Results" MODIFIED="1507866118731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/zhihu" />
     <SUITE FILE_PATH="coverage/PythonStudy$network_util.coverage" NAME="network_util Coverage Results" MODIFIED="1503927318762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_threading.coverage" NAME="study_threading Coverage Results" MODIFIED="1508332578014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_thread" />
+    <SUITE FILE_PATH="coverage/PythonStudy$wx_token_server.coverage" NAME="wx_token_server Coverage Results" MODIFIED="1512811423173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_wechat/token" />
     <SUITE FILE_PATH="coverage/PythonStudy$image_to_ascii.coverage" NAME="image_to_ascii Coverage Results" MODIFIED="1507786923782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/image_to_ascii" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_queue.coverage" NAME="study_queue Coverage Results" MODIFIED="1503730752529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_write_excel_1.coverage" NAME="study_write_excel_1 Coverage Results" MODIFIED="1508224155543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_xlrd" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_os.coverage" NAME="study_os Coverage Results" MODIFIED="1508578923985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_file" />
+    <SUITE FILE_PATH="coverage/PythonStudy$H5.coverage" NAME="H5 Coverage Results" MODIFIED="1510843426704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo/test" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_beautiful_soup.coverage" NAME="study_beautiful_soup Coverage Results" MODIFIED="1504257135017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_net" />
     <SUITE FILE_PATH="coverage/PythonStudy$Drcom.coverage" NAME="Drcom Coverage Results" MODIFIED="1503928359025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_property.coverage" NAME="study_property Coverage Results" MODIFIED="1504191705604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_advanced" />
+    <SUITE FILE_PATH="coverage/PythonStudy$main.coverage" NAME="main Coverage Results" MODIFIED="1512802477014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_wechat" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_thread.coverage" NAME="study_thread Coverage Results" MODIFIED="1504190352012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_thread_dead_loop.coverage" NAME="study_thread_dead_loop Coverage Results" MODIFIED="1503931756484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_process_thread" />
     <SUITE FILE_PATH="coverage/PythonStudy$study_quequ.coverage" NAME="study_quequ Coverage Results" MODIFIED="1503728876815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study_utils" />
@@ -63,100 +88,7 @@
     <favorites_list name="PythonStudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="study_shutil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_file/study_shutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backup_db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/backup_db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
-              <folding>
-                <element signature="e#122#136#0" expanded="true" />
-                <element signature="e#2509#3194#0" expanded="false" />
-                <marker date="1509590724612" expanded="true" signature="2341:2372" ph="update stude... " />
-                <marker date="1509590724612" expanded="true" signature="2341:2373" ph="update stude... " />
-                <marker date="1509590724612" expanded="true" signature="2341:2407" ph="update stude... " />
-                <marker date="1509590724612" expanded="true" signature="2341:2408" ph="update stude... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string_service.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study_advanced/tornado/string_service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#32#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ypi_job_auto_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/ypi_job_auto_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2033">
-              <caret line="109" column="13" lean-forward="false" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connections.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/python/TestEnv/lib/python2.7/site-packages/MySQLdb/connections.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4541">
-              <caret line="244" column="8" lean-forward="false" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="study_os.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_file/study_os.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="study_read_excel_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_excel/study_read_excel_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-              <folding>
-                <element signature="e#15#24#0" expanded="true" />
-                <element signature="e#105#975#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="study_read_excel_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_excel/study_read_excel_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -169,7 +101,16 @@
     <findStrings>
       <find>keep_alive_package_builder</find>
       <find>host_ip</find>
+      <find>list1</find>
+      <find>H2</find>
+      <find>hp</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/wechat</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,9 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study01/StudyThread.py" />
-        <option value="$PROJECT_DIR$/study_util.py" />
-        <option value="$PROJECT_DIR$/study_process_thread/study_process1.py" />
         <option value="$PROJECT_DIR$/study_utils/study_quequ.py" />
         <option value="$PROJECT_DIR$/study_utils/study_queue.py" />
         <option value="$PROJECT_DIR$/study_process_thread/study_process2.py" />
@@ -216,6 +154,21 @@
         <option value="$PROJECT_DIR$/study_excel/study_read_excel.py" />
         <option value="$PROJECT_DIR$/demo/backup_db.py" />
         <option value="$PROJECT_DIR$/study_advanced/tornado/string_service.py" />
+        <option value="$PROJECT_DIR$/demo/H5.py" />
+        <option value="$PROJECT_DIR$/demo/test/H2.py" />
+        <option value="$PROJECT_DIR$/demo/test/H5.py" />
+        <option value="$PROJECT_DIR$/study_wechat/verify.py" />
+        <option value="$PROJECT_DIR$/study_wechat/handle/receive.py" />
+        <option value="$PROJECT_DIR$/study_wechat/handle/replay.py" />
+        <option value="$PROJECT_DIR$/study_wechat/token/get_token_server.py" />
+        <option value="$PROJECT_DIR$/study_wechat/menu/add_menu.py" />
+        <option value="$PROJECT_DIR$/study_wechat/token/wx_token_server.py" />
+        <option value="$PROJECT_DIR$/study_wechat/menu/wx_menu.py" />
+        <option value="$PROJECT_DIR$/study_wechat/main.py" />
+        <option value="$PROJECT_DIR$/study_wechat/wx_server.py" />
+        <option value="$PROJECT_DIR$/study_wechat/main/receive.py" />
+        <option value="$PROJECT_DIR$/study_wechat/main/main.py" />
+        <option value="$PROJECT_DIR$/study_wechat/user/wx_user.py" />
       </list>
     </option>
   </component>
@@ -225,11 +178,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,16 +221,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study_wechat/main" />
+      <recent name="$PROJECT_DIR$/demo/test" />
+      <recent name="$PROJECT_DIR$/demo" />
       <recent name="D:\PythonCode\PythonStudy\study_file\test_file" />
       <recent name="D:\PythonCode\PythonStudy\demo\image_to_ascii" />
-      <recent name="$PROJECT_DIR$/study_utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study_wechat" />
+      <recent name="$PROJECT_DIR$/study_wechat/handle" />
+      <recent name="$PROJECT_DIR$/demo/test" />
+      <recent name="$PROJECT_DIR$/demo" />
       <recent name="$PROJECT_DIR$/study_excel" />
-      <recent name="$PROJECT_DIR$/study_excel/data" />
-      <recent name="D:\PythonCode\PythonStudy\study_file\test_file" />
-      <recent name="D:\PythonCode\PythonStudy\study_excel" />
-      <recent name="D:\PythonCode\PythonStudy\demo\image_to_ascii" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.backup_db">
+  <component name="RunManager" selected="Python.wx_user">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,110 +265,110 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration name="backup_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_wechat" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/backup_db.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_wechat/main/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="study_os" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx_menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_file" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_wechat/menu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_file/study_os.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_wechat/menu/wx_menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="study_read_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx_token_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_wechat" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_excel/study_read_excel_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_wechat/main/wx_token_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="study_shutil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx_token_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_file" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_wechat/token" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_file/study_shutil.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_wechat/token/wx_token_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="study_write_excel_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="wx_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study_wechat/user" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_excel/study_write_excel_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study_wechat/user/wx_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.study_write_excel_2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.study_shutil" />
-      <item index="2" class="java.lang.String" itemvalue="Python.study_os" />
-      <item index="3" class="java.lang.String" itemvalue="Python.study_read_excel" />
-      <item index="4" class="java.lang.String" itemvalue="Python.backup_db" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.wx_token_server" />
+      <item index="2" class="java.lang.String" itemvalue="Python.wx_menu" />
+      <item index="3" class="java.lang.String" itemvalue="Python.wx_token_server (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.wx_user" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.backup_db" />
-        <item index="1" class="java.lang.String" itemvalue="Python.study_read_excel" />
-        <item index="2" class="java.lang.String" itemvalue="Python.study_os" />
-        <item index="3" class="java.lang.String" itemvalue="Python.study_shutil" />
-        <item index="4" class="java.lang.String" itemvalue="Python.study_write_excel_2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.wx_user" />
+        <item index="1" class="java.lang.String" itemvalue="Python.wx_token_server" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.wx_token_server (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.wx_menu" />
       </list>
     </recent_temporary>
   </component>
@@ -551,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509592831609</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="使用Tornado编写树莓派小车服务端控制程序">
+      <created>1510662300882</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1510662300882</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -564,19 +525,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1440" height="817" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17739628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15593705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22519685" sideWeight="0.46759942" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17453505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.059065934" sideWeight="0.5324006" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47229916" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4570637" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47107437" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45592287" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29707113" sideWeight="0.5324006" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.040166207" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2303263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19525802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2825485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -636,33 +597,16 @@
     <MESSAGE value="python线程相关知识的学习" />
     <MESSAGE value="python使用xlwt操作excel生成报表" />
     <MESSAGE value="python数据库通过邮箱完成数据库备份" />
-    <option name="LAST_COMMIT_MESSAGE" value="python数据库通过邮箱完成数据库备份" />
+    <MESSAGE value="使用Tornado编写树莓派小车服务端控制程序" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用Tornado编写树莓派小车服务端控制程序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/huaban/30.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/29.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/22.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/24.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/27.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/6.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/8.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/9.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/10.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/12.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/11.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/14.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/13.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/18.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/66.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/65.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/62.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/huaban/59.jpg" />
     <entry file="file://$PROJECT_DIR$/demo/huaban/56.jpg" />
     <entry file="file://$PROJECT_DIR$/demo/huaban/54.jpg" />
     <entry file="file://$PROJECT_DIR$/demo/huaban/36.jpg" />
@@ -727,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,10 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-            <element signature="e#105#975#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4541">
           <caret line="244" column="8" lean-forward="false" selection-start-line="244" selection-start-column="8" selection-end-line="244" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,32 +713,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2033">
           <caret line="109" column="13" lean-forward="false" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/backup_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
-          <folding>
-            <element signature="e#122#136#0" expanded="true" />
-            <element signature="e#2509#3194#0" expanded="false" />
-            <marker date="1509590724612" expanded="true" signature="2341:2372" ph="update stude... " />
-            <marker date="1509590724612" expanded="true" signature="2341:2373" ph="update stude... " />
-            <marker date="1509590724612" expanded="true" signature="2341:2407" ph="update stude... " />
-            <marker date="1509590724612" expanded="true" signature="2341:2408" ph="update stude... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study_advanced/tornado/string_service.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/test/H3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/test/lncipedia_3_1_hc.fasta">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="133">
+          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/test/H2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/python/TestEnv/lib/python2.7/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/test/H5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/backup_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="135" column="45" lean-forward="false" selection-start-line="135" selection-start-column="45" selection-end-line="135" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hmac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/handle/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/main/replay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/wx_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/main/verify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/main/wx_token_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-645">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/main/receive.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/menu/wx_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/token/wx_token_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="15" />
           <folding>
-            <element signature="e#32#50#0" expanded="true" />
+            <element signature="e#48#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/user/wx_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_wechat/main/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.2/python_stubs/-1157400276/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="240" column="4" lean-forward="false" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
